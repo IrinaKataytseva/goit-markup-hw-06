@@ -145,6 +145,7 @@
             <li class="ourteam-item">
               <img
                 class="ourteam-pict"
+                srcset="./images/Mark.jpg 1x, ./images/Mark@2x.jpg 2x"
                 src="./images/Mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -189,6 +190,7 @@
             <li class="ourteam-item">
               <img
                 class="ourteam-pict"
+                srcset="./images/Tom.jpg 1x, ./images/Tom@2x.jpg 2x"
                 src="./images/Tom.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -229,9 +231,11 @@
                 </ul>
               </div>
             </li>
+
             <li class="ourteam-item">
               <img
                 class="ourteam-pict"
+                srcset="./images/Camila.jpg 1x, ./images/Camila@2x.jpg 2x"
                 src="./images/Camila.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -275,6 +279,7 @@
             <li class="ourteam-item">
               <img
                 class="ourteam-pict"
+                srcset="./images/Daniel.jpg 1x, ./images/Daniel@2x.jpg 2x"
                 src="./images/Daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -327,12 +332,22 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
-                <img
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/Banking.jpg 1x, images\portfolio\bank_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/bank_tab.jpg 1x, images\portfolio\bank_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/bank_mob.jpg 1x, images\portfolio\bank_mob@2x.jpg 2x"/>
+                  
+                  <img
                   class="portfolio-img"
                   src="./images/portfolio/Banking.jpg"
                   alt="Screens of Banking App"
                   width="360"
                 />
+                </picture>
+                
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -349,6 +364,14 @@
 
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/Cashless.jpg 1x, images\portfolio\cashless_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/cashless_tab.jpg 1x, images\portfolio\cashless_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/cashless_mob.jpg 1x, images\portfolio\cashless_mob@2x.jpg 2x"/>
+                  
                 <img
                   class="portfolio-img"
                   src="./images/portfolio/Cashless.jpg"
@@ -369,6 +392,14 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/Meditation.jpg 1x, images\portfolio\meditation_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/meditation_tab.jpg 1x, images\portfolio\meditation_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/meditation_mob.jpg 1x, images\portfolio\meditation_mob@2x.jpg 2x"/>
+                  
                 <img
                   class="portfolio-img"
                   src="./images/portfolio/Meditation.jpg"
@@ -388,6 +419,14 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/taxi.jpg 1x, images\portfolio\taxi_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/taxi_tab.jpg 1x, images\portfolio\taxi_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/taxi_mob.jpg 1x, images\portfolio\taxi_mob@2x.jpg 2x"/>
+                  
                 <img
                   class="portfolio-img"
                   src="./images/portfolio/Taxi.jpg"
@@ -407,6 +446,14 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/screen.jpg 1x, images\portfolio\screen_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/screen_tab.jpg 1x, images\portfolio\screen_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/screen_mob.jpg 1x, images\portfolio\screen_mob@2x.jpg 2x"/>
+                  
                 <img
                   class="portfolio-img"
                   src="./images/portfolio/Screen.jpg"
@@ -426,6 +473,14 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
+                <picture>
+                  <!-- desktop -->
+                  <source media="(min-width:1158px)" srcset="./images/portfolio/online.jpg 1x, images\portfolio\online_desk@2x.jpg 2x"/>
+                  <!-- tablet -->
+                  <source media="(min-width:768px)" srcset="./images/portfolio/online_tab.jpg 1x, images\portfolio\online_tab@2x.jpg 2x"/>
+                  <!-- mobile -->
+                  <source media="(min-width:767px)" srcset="./images/portfolio/online_mob.jpg 1x, images\portfolio\online_mob@2x.jpg 2x"/>
+                  
                 <img
                   class="portfolio-img"
                   src="./images/portfolio/Online.jpg"
