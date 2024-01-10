@@ -299,8 +299,8 @@ h3 {
 
 .hero-container {
   display: flex;
-  padding-top: 72px;
-  padding-bottom: 72px;
+  /* padding-top: 72px;
+  padding-bottom: 72px; */
 
   /* padding-right: 331px;
 
@@ -486,7 +486,16 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+@media only screen and (min-width: 768px) {
+  .advantages-caption {
+ 
+font-size: 20px;
 
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
+  }
+}
 @media only screen and (min-width: 768px) {
   .advantages-caption {
     text-align: start;
@@ -531,10 +540,10 @@ line-height: 1.2; 120% */
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-}
+  justify-content: center;
 /* display: flex;
   gap: 24px; */
-
+}
 @media screen and (min-width: 768px) {
   /* Tablet devices */
   .ourteam-list {
@@ -794,7 +803,7 @@ margin-top: 32px;
   align-items: center;
   gap: 14px;
   /* gap: 24px; */
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 .socials-item {
   width: 40px;
@@ -1089,7 +1098,7 @@ stroke: rgba(0, 0, 0, 0.10); */
 .form-icon {
   position: absolute;
   /* fill:#2E2F42; */
-  stroke: #2e2f42;
+  /* stroke: #2e2f42; */
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
